@@ -9,7 +9,6 @@ def replace_non_printable(text, replacement):
 
 def print_error_message(pw, message):
     print(replace_non_printable(pw, '*') + " -> Error: " + message)
-    return True
 
 
 def check_valid_length(pw_length):
